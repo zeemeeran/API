@@ -20,6 +20,7 @@ for rec in records:
     data = get_quote_table(symbol)
     openprice = data['Open']
     
+    
     cur.execute('UPDATE stocktracking SET currentprice = %s, openprice = %s WHERE ticker = %s', (currentprice, openprice, symbol))
             
 conn.commit()
