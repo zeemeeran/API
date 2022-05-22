@@ -1,2 +1,2 @@
 def lambda_handler(event, context):
-    print("uploaded code")
+    print("uploaded code from local machine")
