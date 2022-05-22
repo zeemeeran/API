@@ -23,7 +23,7 @@ currentprice = data[first_data]['1. open']
 #print(fullurl)
 
 def get_db_conn():
-    conn = psycopg2.connect(host="stock-db.cdedk051ucx3.us-east-1.rds.amazonaws.com", port="5432",
+    conn = psycopg2.connect(host="***********************.rds.amazonaws.com", port="5432",
                             database="stockdb", user="postgres", password="postgres")
     return conn
 
